@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contest-1st-15th-April</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h2>New Employees</h2>
+
+    <form class="form-inline" id="formSubmit">
+        <label for="enter Name">Enter Name:</label><br><br>
+        <input type="text" id="enter-name" name="fname" value="" required><br><br>
+        <label for="enter Profession">Enter Profession:</label><br><br>
+        <input type="text" id="enter-profession" name="profession" value="" required><br><br>
+        <label for="enter Age">Enter Age:</label><br><br>
+        <input type="text" id="enter-age" name="age" value="" required>
+    </form>
+
+    <button type="submit" class="button" id="btn">Add User</button>
+    <div id="error">
+        <span style="color:red;">Error : Please Make sure All the fields are filled before adding in an employee
+            !</span>
+    </div>
+    <div id="success">
+        <span style="color:green">Success : Employee Added!</span>
+    </div>
+    <p>Added Employees</p>
+    <div id="displayData"> </div>
+
+   
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
